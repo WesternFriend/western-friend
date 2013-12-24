@@ -1,0 +1,11 @@
+name = Typography
+description = Web font families, assignment, modules, etc.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = typography
+dependencies[] = features
+dependencies[] = fontyourface
+dependencies[] = google_fonts_api
+features[features_api][] = api:2
+features[fontyourface][] = EB Garamond regular (cyrillic)
