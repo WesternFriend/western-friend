@@ -9,23 +9,41 @@
  */
 function typography_fontyourface_features_default_font() {
   return array(
-    'EB Garamond regular (cyrillic)' => array(
-      'name' => 'EB Garamond regular (cyrillic)',
+    'EB Garamond regular (latin)' => array(
+      'name' => 'EB Garamond regular (latin)',
       'enabled' => 1,
-      'url' => 'http://www.google.com/webfonts/family?family=EB Garamond&subset=cyrillic#regular',
+      'url' => 'http://www.google.com/webfonts/family?family=EB Garamond&subset=latin#regular',
       'provider' => 'google_fonts_api',
-      'css_selector' => 'h1, h2, h3, h4, h5, h6',
+      'css_selector' => 'p, div',
       'css_family' => 'EB Garamond',
       'css_style' => 'normal',
       'css_weight' => 'normal',
-      'css_fallbacks' => '',
+      'css_fallbacks' => 'TimesNewRoman, “Times New Roman”, Times, Baskerville, Georgia, serif;',
       'foundry' => '',
       'foundry_url' => '',
       'license' => '',
       'license_url' => '',
       'designer' => '',
       'designer_url' => '',
-      'metadata' => 'a:2:{s:4:"path";s:19:"EB Garamond:regular";s:6:"subset";s:8:"cyrillic";}',
+      'metadata' => 'a:2:{s:4:"path";s:19:"EB Garamond:regular";s:6:"subset";s:5:"latin";}',
+    ),
+    'Ultra regular (latin)' => array(
+      'name' => 'Ultra regular (latin)',
+      'enabled' => 1,
+      'url' => 'http://www.google.com/webfonts/family?family=Ultra&subset=latin#regular',
+      'provider' => 'google_fonts_api',
+      'css_selector' => '.navbar-brand',
+      'css_family' => 'Ultra',
+      'css_style' => 'normal',
+      'css_weight' => 'normal',
+      'css_fallbacks' => '"Courier New Bold","Courier New",Courier',
+      'foundry' => '',
+      'foundry_url' => '',
+      'license' => '',
+      'license_url' => '',
+      'designer' => '',
+      'designer_url' => '',
+      'metadata' => 'a:2:{s:4:"path";s:13:"Ultra:regular";s:6:"subset";s:5:"latin";}',
     ),
   );
 }

@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * issues.features.inc
+ * magazine_issue_publish.features.inc
  */
 
 /**
  * Implements hook_node_info().
  */
-function issues_node_info() {
+function magazine_issue_publish_node_info() {
   $items = array(
-    'issue' => array(
-      'name' => t('Issue'),
+    'magazine_issue' => array(
+      'name' => t('Magazine Issue'),
       'base' => 'node_content',
-      'description' => t('An issue of Western Friend magazine. Articles will be linked to the issue.'),
+      'description' => t('Western Friend magazine issue.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
